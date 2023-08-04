@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #eee;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+h1{
+  font-size: 40px;
+}
+.navbar img{
+  margin-bottom: -40px;
+  width:120px;
+}
+.navbar {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee;
+}
+.navbar h1 {
+  color: #ffffff;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ffffff;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Star Jedi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.blog-prev {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #111;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+
+.blog-prev:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.7);
+}
+
+.blog-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-details p {
+  font-size: 14px;
+  color: #ff0000;
+}
+
+.blog-details article {
+  margin-top: 20px;
+}
+
+.blog-details div {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+img{
+  width:100%;
+}
+
+button{
+  background-color: #000000;
+  border-width:2px;
+  border-color: #eee;
+  height: 40px;
+  width: 80px;
+}
+
+
+.Create form{
+  display: grid;
+}
+.Create input,select,option{
+  margin-top: -35px;
+  border-color: #ccc;
+  height: 25px;
+  color: black;
+}
